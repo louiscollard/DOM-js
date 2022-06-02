@@ -41,7 +41,6 @@ const randomizeArr = (arr) => {
 	return arr;
 };
 const randArr = randomizeArr(learners);
-// randomizeArr(learners);
 
 for (let i of randArr) {
 	let x = Math.trunc(Math.random() * 256);
