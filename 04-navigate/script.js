@@ -9,7 +9,6 @@ const olInvertLastAndFirst = ol.insertBefore(olLastChild, olFirstChild);
 
 /******************** 4.2 ********************/
 
-const main = document.querySelector("main");
 const section = document.querySelector("section");
 const thirdSection = section.nextElementSibling;
 let thirdTitle = thirdSection.firstElementChild;
