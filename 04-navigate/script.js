@@ -4,7 +4,7 @@
 
 const ol = document.querySelector("ol");
 const olFirstChild = ol.children[0];
-const olLastChild = ol.children[4];
+const olLastChild = ol.lastElementChild;
 const olInvertLastAndFirst = ol.insertBefore(olLastChild, olFirstChild);
 
 /******************** 4.2 ********************/
